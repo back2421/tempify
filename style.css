@@ -58,8 +58,28 @@ li a {
   text-align: center;
 }
 
-.text img {
+/* .text img {
+  
+} */
+
+.telegram {
   margin-top: 65px;
+  width: 265px;
+  height: 55px;
+  margin: 0 auto;
+  border: 2px solid #FFA800;
+  filter: drop-shadow(0px 0px 10px #FFA800);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFECC7;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.telegram img {
+  margin-right: 15px;
 }
 
 .invest {
@@ -89,6 +109,7 @@ p {
   font-weight: bold;
   letter-spacing: -0.06em;
   margin-top: -32px;
+  margin-bottom: 65px;
 }
 
 @media only screen and (max-width: 1050px) {
@@ -112,10 +133,6 @@ p {
     padding-top: 120px;
   }
 
-  .text img {
-    margin-top: 30px;
-  }
-
   .invest {
     margin-top: 30px;
   }
@@ -133,6 +150,12 @@ p {
     background-position: 0px 100%;
   }
 
+  .logo {
+    left: 20px;
+    top: 20px;
+    width: 140px;
+  }
+
   h1 {
     font-size: 35px;
   }
@@ -146,11 +169,6 @@ p {
     padding-top: 120px;
   }
 
-  .text img {
-    margin-top: 30px;
-    width: 235px;
-  }
-
   .invest {
     margin-top: 20px;
     font-size: 12px;
@@ -159,3 +177,4 @@ p {
   nav {
     display: none;
   }
+}
