@@ -17,7 +17,7 @@ body {
 
 .wrapper {
   background-color: #000819;
-  background-image: url(img/hero-desktop.jpg);
+  background-image: url(img/hero-desktop.png);
   background-size: 100% 100vh;
   height: 100vh;
   width: 100%;
@@ -117,7 +117,7 @@ p {
   }
 
   .invest {
-    margin-top:30px;
+    margin-top: 30px;
   }
 
   ul {
@@ -152,10 +152,10 @@ p {
   }
 
   .invest {
-    margin-top:20px;
-    font-size:12px;
+    margin-top: 20px;
+    font-size: 12px;
   }
 
   nav {
     display: none;
-}
+  }
